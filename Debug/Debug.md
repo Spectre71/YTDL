@@ -3,4 +3,4 @@
 Latest debug build: `0.2.2`
 
 - Missing QOL improvements
-- Stable
+- Stable: `Android | Windows | iOS(?)`
