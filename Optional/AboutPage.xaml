@@ -1,0 +1,65 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:YTDL"
+             xmlns:local="clr-namespace:YTDL"
+             x:Class="YTDL.AboutPage"
+             x:DataType="viewModels:AboutPage"
+             Title="About">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Image Source="app_icon.png"
+               HeightRequest="100"
+               HorizontalOptions="Center"/>
+
+        <Label Text="YTDL"
+               FontSize="40"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="{StaticResource Accent}"
+               Margin="0,10"/>
+        <Label Text="(YouTube Audio Downloader)"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Margin="0,-10,0,30"/>
+
+        <Label Text="{Binding VersionText}"
+               FontSize="Medium"
+               HorizontalOptions="Center"/>
+
+        <Grid HorizontalOptions="Center"
+              VerticalOptions="Center"
+              Margin="0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0"
+                   Text="{x:Static local:FontAwesomeIcons.GithubBrands}"
+                   FontFamily="FontAwesomeBrands"
+                   TextColor="{StaticResource Accent}"
+                   FontSize="16"
+                   VerticalOptions="Center"/>
+
+            <Label Grid.Column="1"
+                   Text="GitHub"
+                   TextColor="{StaticResource Accent}"
+                   FontSize="16"
+                   Margin="8,0,0,0"
+                   VerticalOptions="Center"/>
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Tapped="ViewSourceClicked"/>
+            </Grid.GestureRecognizers>
+        </Grid>
+        <Label Text="Author: Spectre71"
+               FontSize="16"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               TextColor="{StaticResource Primary}"
+               Margin="0,280,0,0"/>
+    </VerticalStackLayout>
+</ContentPage>
