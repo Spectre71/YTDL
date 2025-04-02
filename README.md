@@ -1,7 +1,7 @@
 # YTDL
 MAUI app for downloading YouTube videos using YouTubeExplode and it's FFmpeg implementation.
 
-## Mandatory File
+## Mandatory Files
 - AppShell.fileExt.
 - Shell.fileExt.
 - fontawesome fonts package.
