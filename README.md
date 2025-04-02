@@ -7,3 +7,4 @@ MAUI app for downloading YouTube videos using YouTubeExplode and it's FFmpeg imp
 - App currently supports android 14 or later.
 - Full README comes at version 1.0
 - Debug folder contains a debug .apk build.
+- Place files from `Optional` into your .sln folder along the mandatory files from `Mandatory_Files`.
