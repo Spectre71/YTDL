@@ -1,5 +1,6 @@
 # Debug Log
 
-Latest debug build: '''python
+Latest debug build:
+```python
 '0.2.2'
-'''
+```
