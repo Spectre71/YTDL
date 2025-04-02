@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+	<defs>
+		<style>
+			.cls-1{fill:#000000;}
+			.cls-2{fill:#fff;}
+			.cls-3{fill:red;}
+			.cls-4{fill:#fec260;}
+		</style>
+	</defs>
+	<title>appiconfull</title>
+	<g id="Layer_3" data-name="Layer 3">
+		<rect class="cls-1" width="1024" height="1024"/>
+	</g>
+	<g id="Layer_2" data-name="Layer 2">
+		<line class="cls-2" x1="419.5" y1="517" x2="766.5" y2="517"/>
+		<polygon class="cls-3" points="386.55 736.4 766.5 517 386.55 297.6 386.55 736.4"/>
+		<line class="cls-4" x1="408.5" y1="517" x2="755.5" y2="517"/>
+		<polygon class="cls-2" points="375.55 736.4 755.5 517 375.55 297.6 375.55 736.4"/>
+		<line class="cls-4" x1="396.5" y1="517" x2="743.5" y2="517"/>
+		<polygon class="cls-4" points="363.55 736.4 743.5 517 363.55 297.6 363.55 736.4"/>
+	</g>
+</svg>
